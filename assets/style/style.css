@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(9, 20, 9)
+}
+
+.main-tale{
+    width: 900px;
+    height: 550px;
+    
+}
+
+.page-total{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+.massive-items{
+    display: inline-flex;
+
+}
+
+.info-box{
+    height: 520px;
+    width: 250px;
+    
+}
+
+.info-box .info-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    border-radius: 5px;
+
+}
+
+.info-content .info-header{   
+    position: absolute; 
+    z-index: 10;
+    width: 100%;;
+    height: 61%;
+    padding: 15px;
+
+    background-color: #2da82d;
+    border-radius: 5px;
+
+}
+
+.info-header .title{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+   
+}
+
+.info-header .description{
+    margin-top: 15px;
+
+    color: rgb(184, 255, 194);
+
+}
+
+.info-content .text-box{
+    position: relative;
+    align-self: last baseline;
+    z-index: 5;
+    width: 100%;
+    height: 42%;
+    line-height: 50px;
+    background-color: #1d4b2b;
+
+}
+
+.text-box a{
+    display: list-item;
+    padding: 0 20px;
+
+    color: #54a86e;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.text-box .non-selected:hover{
+    color: #77d896;
+}
+
+
+.page-screen{
+    width: 610px;
+    height: 520px;
+    margin-left: 10px;
+    padding:15px;
+    
+    border-radius: 5px;
+    background-color: #1d4b2b;
+}
+
+.text-hitbox{
+    
+
+}
+
+.text-content{
+    display: flex;
+    color:white;
+    font-size: 20px;
+}
+
+.next-page{
+    display: flex;
+    justify-content: right;
+    margin-top:10px;
+
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.click-change{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#change-text-project{
+    color:#54a86e
+}
+
+#change-text-project:hover{
+    color:white;
+    cursor: pointer;
+
+}
